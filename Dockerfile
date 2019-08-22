@@ -1,3 +1,2 @@
-FROM httpd:2.4
+FROM nginx
 COPY demo.html ./
-EXPOSE 80
