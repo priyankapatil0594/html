@@ -1,3 +1,3 @@
-FROM httpd:2.4
-COPY demo.html ./
-EXPOSE 8080
+FROM ubuntu:14.04
+
+COPY demo.html /var/www/html/
